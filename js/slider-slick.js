@@ -7,8 +7,7 @@ if (document.documentElement.clientWidth <= 1090) {
 
     $(function() {
         $('.portfolio__items').not('.slick-initialized').slick({
-           prevArrow: '<button type="button" class="slick-prev slick-btn btn"><img src="../js/slider/arrow_left.svg"></button>',
-           nextArrow: '<button type="button" class="slick-next slick-btn btn"><img src="../js/slider/arrow_right.svg "></button>'
+          arrows: false
         }); 
     
     });
@@ -23,8 +22,7 @@ window.addEventListener('resize', function() {
        
         $(function() {
             $('.portfolio__items').not('.slick-initialized').slick({
-                prevArrow: '<button type="button" class="slick-prev slick-btn btn"><img src="../js/slider/arrow_left.svg"></button>',
-                 nextArrow: '<button type="button"    class="slick-next slick-btn btn"><img src="../js/slider/arrow_right.svg "></button>'
+               arrows: false
             });       
         });
        
