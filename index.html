@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./libs/jQuery/slick/slick.css">
+    <title>Oxygen</title>
+</head>
+<body>
+    
+    <header class="header" id="menu">
+        <div class="header__top">
+            <div class="container">
+                <div class="header__top-inner">
+                    <div class="logo" id="logo">
+                        <a class="logo__link"  href="#">
+                           <svg class="logo-icon">
+                                   <use xlink:href="./svg-sprites/svg-sprites.svg#logo"></use>
+                                </svg>
+                        </a>
+                    </div>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__list-item" >
+                                <a href="#" class="menu__link menu__link--active" data-link-menu id="homeLink">home</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="#about-section" class="menu__link" data-link-menu>about us</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="#portfolio-section" class="menu__link" data-link-menu>portfolio</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="#our-team" class="menu__link" data-link-menu>our team</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="#" class="menu__link" data-link-menu>blog</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="#contact-section" class="menu__link" data-link-menu>contact</a>
+                            </li>
+                        </ul>
+                        <div class="burger-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </nav>
+                </div>
+                
+            </div>
+        </div>
+        <div class="header__content">
+            <div class="container">
+                <div class="header__content-inner">
+                    <h1 class="header__content-title" id="mainTitle">oxigen</h1>
+                   <p class="header__content-description">starter ui kit</p>
+                   <div class="header__content-decor">
+                       <!-- <svg class="mouse-icon">
+                           <use xlink:href="./svg-sprites/svg-sprites.svg#mouse"></use>
+                       </svg> -->
+                       
+                   </div>
+                </div>
+            </div>
+            <!-- <input type="range" class="font-range-bar" value="0" id="font-range"> -->
+        </div>
+    </header>
+    <div class="modal-menu">
+        <button class="close-modal btn">
+            <svg class="close-modal-icon">
+                <use xlink:href="svg-sprites/svg-sprites.svg#closeModal"></use>
+            </svg>
+        </button>
+        <ul class="modal-menu__menu-list">
+            <li class="modal-menu-item" >
+                <a href="#" class="menu-list__link" data-link-menu>home</a>
+            </li>
+            <li class="modal-menu-item">
+                <a href="#about-section" class="menu-list__link" data-link-menu>about us</a>
+            </li>
+            <li class="modal-menu-item">
+                <a href="#portfolio-section" class="menu-list__link" data-link-menu>portfolio</a>
+            </li>
+            <li class="modal-menu-item">
+                <a href="#our-team" class="menu-list__link" data-link-menu>our team</a>
+            </li>
+            <li class="modal-menu-item">
+                <a href="#" class="menu-list__link" data-link-menu>blog</a>
+            </li>
+            <li class="modal-menu-item">
+                <a href="#contact-section" class="menu-list__link" data-link-menu>contact</a>
+            </li>
+        </ul>
+    </div>
+   
+    <section class="about" id="about-section">
+        <div class="container">
+            <div class="about__inner">
+                <div class="title_box" style="align-self: flex-start;">
+                    <h2 class="about__title">
+                        About us
+                    </h2>
+                </div>
+                
+                <div class="about__text">
+                    
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium commodi totam culpa, dolorum asperiores iusto quidem, nesciunt hic eaque blanditiis enim, id maiores nam nobis dignissimos aliquam ad minus nisi. In, fuga blanditiis non cum cupiditate dolore, accusantium odio doloremque quibusdam dignissimos nemo sed nisi, similique, mollitia et! Autem laborum sint tenetur, earum facere veniam? 
+                    </p>
+                    <p>
+                        Sunt fugiat veniam consectetur soluta quia ex tempora quaerat, perferendis! Itaque a praesentium saepe ex distinctio aliquid quis laborum sit, porro dolor odio, iste eos laboriosam dolorum maiores harum reiciendis vitae doloribus illum voluptatibus nobis maxime assumenda ipsam tempora fugiat. Perspiciatis quibusdam hic cum tempore.
+                </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="expertise">
+        <div class="container">
+            <div class="expertise__inner">
+
+            <div class="title_box h2-title-container-for-max-width">
+              <h2 class="expertise__title">
+                Our Expertise
+            </h2>  
+            </div>
+            <div class="expertise__content">
+                <div class="expertise__content-items">
+                   
+                        <div class="expertise__content-item">
+                            <div class="expertise__content-item_progress-bar percent-branding">
+                                <div class="expertise__content-item_progress-bar__progress" style="width:90%"></div>
+                            </div>
+                            <h3 class="expertise__content-item_progress-bar__title">BRANDING</h3> 
+                        </div>
+                        <div class="expertise__content-item">
+                            <div class="expertise__content-item_progress-bar percent-design">
+                                <div class="expertise__content-item_progress-bar__progress" style="width:80%"></div>
+                            </div>
+                            <h3 class="expertise__content-item_progress-bar__title"> DESIGN</h3>
+                        </div>
+                        <div class="expertise__content-item">
+                            <div class="expertise__content-item_progress-bar percent-development">
+                                <div class="expertise__content-item_progress-bar__progress" style="width:85%"></div>
+                            </div>
+                            <h3 class="expertise__content-item_progress-bar__title">DEVELOPMENT </h3>
+                        </div>
+                    
+                    
+                </div>
+                <div class="expertise__content-text">
+                    
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium commodi totam culpa, dolorum asperiores iusto quidem, nesciunt hic eaque blanditiis enim, id maiores nam nobis dignissimos aliquam ad minus nisi.
+                    </p>
+                    <p>
+                        Autem laborum sint tenetur, earum facere veniam? Sunt fugiat veniam consectetur soluta quia ex tempora quaerat, perferendis! Itaque a praesentium saepe ex distinctio aliquid quis
+                    </p>  
+                    
+                </div>
+            </div>
+            <div class="expertise__items">
+                <div class="expertise__item">
+                    <div class="flex-box">
+                        <svg class="expertise__item-logo  expertise__graphic-design_logo">
+                            <use xlink:href="./svg-sprites/svg-sprites.svg#graphic_design"></use>
+                        </svg>
+                        <!-- <svg class="arrow-down">
+                            <use xlink:href="./svg-sprites/svg-sprites.svg#arrow_down">
+                            </use>
+
+                        </svg> -->
+                    </div>
+                    
+                <div class="expertise__item-box">
+                    <h2 class="expertise__item-title">
+                        Graphic Design
+                    </h2>
+                    <p class="expertise__item-text">
+                        Lorem Ipsum Proin gravida nibh vel  velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
+                    </p>
+                    <p class="expertise__item-text">
+                        Lorem Ipsum Proin gravida nibh vel  velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
+                    </p>
+                </div>
+              </div>
+                <div class="expertise__item">
+                    <div class="flex-box">
+                        <svg class="expertise__item-logo expertise__web-development_logo">
+                            <use xlink:href="./svg-sprites/svg-sprites.svg#web-development"></use>
+                        </svg>
+                        <!-- <svg class="arrow-down">
+                            <use xlink:href="./svg-sprites/svg-sprites.svg#arrow_down">
+                            </use>
+    
+                        </svg> -->
+                    </div>
+                    
+                    
+                    <div class="expertise__item-box">
+                        <h2 class="expertise__item-title">
+                            Web Development
+                        </h2>
+                        <p class="expertise__item-text">
+                            Lorem Ipsum Proin gravida nibh vel  velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
+                        </p>
+                    </div>
+                </div>
+                <div class="expertise__item">
+                    <div class="flex-box">
+                        <svg class="expertise__item-logo  expertise__marketing_logo">
+                            <use xlink:href="./svg-sprites/svg-sprites.svg#marketing"></use>
+                        </svg>
+                        <!-- <svg class="arrow-down">
+                            <use xlink:href="./svg-sprites/svg-sprites.svg#arrow_down">
+                            </use>
+                        </svg> -->
+                    </div>
+                    
+                    
+                    <div class="expertise__item-box">
+                        <h2 class="expertise__item-title">
+                            Marketing
+                        </h2>
+                        <p class="expertise__item-text">
+                            Lorem Ipsum Proin gravida nibh vel  velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+<section class="features">
+        <div class="container">
+            <div class="features__inner">
+                <div class="features__photo">
+                    <img class="features__photo-img img" src="./images/let's_make_magic_block/let's_make_magic_img.png" alt="photo">
+                </div>
+                <div class="features__content">
+                        <div class="title_box">
+                           <h2 class="features__title">           
+                            Let's make magic.
+                        </h2> 
+                        </div>
+                        
+                    
+                    <div class="features__text">
+                        
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero veniam odio itaque. Molestiae aut dicta accusantium quod, modi ad alias enim dolor delectus iusto! Inventore tempora labore nobis doloribus optio nulla sit corrupti nostrum, tempore debitis pariatur minus maiores velit, autem ex eum distinctio error fugit. Itaque voluptatum quam veritatis fuga impedit nulla dolor. 
+                        </p>
+                        <p>
+                            Nam dignissimos, ratione odit doloribus cum porro, aut. Ipsum nisi odio voluptatum, et, reprehenderit accusamus, est provident debitis dicta ullam esse assumenda, odit? Alias architecto enim pariatur libero ipsam mollitia maiores minus quibusdam numquam perspiciatis eveniet sit dolores eligendi inventore, ea voluptatum debitis iure, repellendus iste culpa! Voluptatibus quam ipsum nisi odit deserunt qui, consectetur ducimus, quis officia quaerat sapiente dolores, ad libero! Tenetur provident, omnis.
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section class="partfolio" id="portfolio-section">
+        <div class="container">
+            <div class="portfolio__head">
+                <div class="title_box h2-title-container-for-max-width">
+                    <h2 class="portfolio__title">
+                        Portfolio
+                    </h2>
+                </div>
+                
+                <nav class="portfolio__nav">
+                    <ul class="portfolio__nav-list">
+                        <li class="portfolio__nav-item portfolio__nav-item--active mr-39px" data-portfolio-nav id="firstItem">ALL</li>
+                        <li class="portfolio__nav-item mr-39px" data-portfolio-nav>BRANDING</li>
+                        <li class="portfolio__nav-item mr-39px" data-portfolio-nav>PHOTOGRAPHY</li>
+                        <li class="portfolio__nav-item mr-39px" data-portfolio-nav>ILLUSTRATION</li>
+                        <li class="portfolio__nav-item" data-portfolio-nav>SOMETHING ELSE</li>
+                    </ul>
+                    
+                </nav>
+            </div>
+        </div>
+            <div class="portfolio__items">
+                <div class="portfolio__item-img">
+                    <div class="slider-wrapper-item">
+                        <div class="portfolio__item-title">OCCA CUPIDATAT </div>
+                     <div class="portfolio__item-descr">DESIGN</div>
+                    </div> 
+                </div>
+                <div class="portfolio__item-img">
+                    <div class="slider-wrapper-item">
+                        <div class="portfolio__item-title">OCCA CUPIDATAT </div>
+                     <div class="portfolio__item-descr">DESIGN</div>
+                    </div> 
+                </div>
+                <div class="portfolio__item-img">
+                    <div class="slider-wrapper-item">
+                        <div class="portfolio__item-title">OCCA CUPIDATAT </div>
+                     <div class="portfolio__item-descr">DESIGN</div>
+                    </div> 
+                </div>
+                <div class="portfolio__item-img">
+                    <div class="slider-wrapper-item">
+                        <div class="portfolio__item-title">OCCA CUPIDATAT </div>
+                     <div class="portfolio__item-descr">DESIGN</div>
+                    </div> 
+                </div>
+                <div class="portfolio__item-img">
+                    <div class="slider-wrapper-item">
+                        <div class="portfolio__item-title">OCCA CUPIDATAT </div>
+                     <div class="portfolio__item-descr">DESIGN</div>
+                    </div> 
+                </div>
+                <div class="portfolio__item-img">
+                    <div class="slider-wrapper-item">
+                        <div class="portfolio__item-title">OCCA CUPIDATAT </div>
+                     <div class="portfolio__item-descr">DESIGN</div>
+                    </div> 
+                </div>
+                <div class="portfolio__item-img">
+                    <div class="slider-wrapper-item">
+                        <div class="portfolio__item-title">OCCA CUPIDATAT </div>
+                     <div class="portfolio__item-descr">DESIGN</div>
+                    </div> 
+                </div>
+                <div class="portfolio__item-img">
+                    <div class="slider-wrapper-item">
+                        <div class="portfolio__item-title">OCCA CUPIDATAT </div>
+                     <div class="portfolio__item-descr">DESIGN</div>
+                    </div> 
+                </div>
+                <div class="portfolio__item-img">
+                    <div class="slider-wrapper-item">
+                        <div class="portfolio__item-title">OCCA CUPIDATAT </div>
+                     <div class="portfolio__item-descr">DESIGN</div>
+                    </div> 
+                </div>
+                
+            </div>
+            <div class="btn-wrapper">
+                <button class="btn portfolio__btn-all">VIEW MORE PROJECTS</button>
+            </div>
+            
+        
+    </section>
+    <section class="video">
+        <div class="quotes">
+            <div class="video_quotes">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores ab inventore in corrupti repudiandae pariatur quam veniam facere magni sunt?</p>  
+            </div>
+            <div class="video__quotes-author">
+                <p>
+                    Gilbert Hammond
+                </p>
+                
+            </div>
+        </div>
+        <style>
+            
+
+        </style>
+        <div class="video-wrapper">
+            <video id="video" class="video-play" poster="./images/video/video.png">
+                <source src="./video/cover.mp4" type="video/mp4">
+            </video>
+            <button class="play-btn">
+                <svg class="play-video-icon">
+                    <use xlink:href="./svg-sprites/svg-sprites.svg#video-icon"></use>
+                </svg>
+            </button>
+            </div>
+        
+            
+    </section>
+    <section class="statistics">
+        <div class="container">
+            <div class="statistics__inner">
+                <div class="statistics__item">
+                    <div class="statistics__item-num">
+                        305
+                    </div>
+                    <div class="statistics__item-text">
+                        Web Designs
+                    </div>
+                </div>
+                <div class="statistics__item">
+                    <div class="statistics__item-num">
+                        220
+                    </div>
+                    <div class="statistics__item-text">
+                        Logo Designs
+                    </div>
+                </div>
+                <div class="statistics__item">
+                    <div class="statistics__item-num">
+                        52
+                    </div>
+                    <div class="statistics__item-text">
+                        Print Designs
+                    </div>
+                </div>
+                <div class="statistics__item">
+                    <div class="statistics__item-num">
+                        88
+                    </div>
+                    <div class="statistics__item-text">
+                        Mobile Apps
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="slider__section">
+        <div class="container">
+            <div class="slider__center-container">
+                <div class="slider__section-slider">
+                    <div class="slider__section-wrapper">
+                        <div class="slider__item">
+                            <h2 class="slider__item-title">
+                                Then they show that show to the 
+                                people who make shows
+                            </h2>
+                            <p class="slider__item-text">
+                                The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother’s.
+                            </p>
+                            
+                        </div>
+                        <div class="slider__item">
+                            <h2 class="slider__item-title">
+                                (っ◔◡◔)っ ♥ Have a nice day ♥
+                            </h2>
+                            <p class="slider__item-text">
+                                The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother’s.
+                            </p>
+                        </div>
+                        <div class="slider__item">
+                            <h2 class="slider__item-title">
+                                🐚  🎀  𝒯💍𝒹𝒶𝓎 𝒾𝓈 𝓎❤𝓊𝓇 𝒹𝒶𝓎  🎀  🐚
+                            </h2>
+                            <p class="slider__item-text">
+                                The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother’s.
+                            </p>
+                        </div>
+                        <div class="slider__item">
+                            <h2 class="slider__item-title">
+                                🎄✎  кŇỖᗯ ｉｔ
+                            </h2>
+                            <p class="slider__item-text">
+                                The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother’s.
+                            </p>
+                        </div>
+                        <div class="slider__item">
+                            <h2 class="slider__item-title">
+                                [̲̅A][̲̅l][̲̅w][̲̅a][̲̅y][̲̅s]
+                            </h2>
+                            <p class="slider__item-text">
+                                The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother’s.
+                            </p>
+                        </div>
+                        <div class="slider__item">
+                            <h2 class="slider__item-title">
+                                💚🍮  ℕενⓔŕ 𝒷𝓐𝓬𝐊 ＤỖｗｎ!  👤🍩
+                            </h2>
+                            <p class="slider__item-text">
+                                The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother’s.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <button class="slider__btn-left slider__btn btn">
+                    <svg class="arrow-left">
+                        <use xlink:href="./svg-sprites/svg-sprites.svg#arrow-left"></use>
+                    </svg>
+                </button>
+                <button class="slider__btn-right slider__btn btn">
+                    <svg class="arrow-right">
+                        <use xlink:href="./svg-sprites/svg-sprites.svg#arrow-right"></use>
+                    </svg>
+                </button>
+            </div>
+            
+            <div class="slider__button-wrap">
+                <button class="btn btn-click-1">
+                    <div class="sliderButton slider-btn--active"></div>
+                </button>
+                <button class="btn btn-click-2">
+                    <div class="sliderButton"></div>
+                </button>
+                <button class="btn btn-click-3">
+                    <div class="sliderButton"></div>
+                </button>
+                <button class="btn btn-click-4">
+                    <div class="sliderButton"></div>
+                </button>
+                <button class="btn btn-click-5">
+                    <div class="sliderButton"></div>
+                </button>
+                <button class="btn btn-click-6">
+                    <div class="sliderButton"></div>
+                </button>
+            </div>
+        </div>  
+    </section>
+    <section class="team">
+        <div class="container">
+            <div class="title_box h2-title-container-for-max-width">
+                <h2 class="team__title" id="our-team">
+                    Our Team 
+                </h2>
+            </div>
+            
+            <div class="team__items">
+                <div class="team__item">
+                    <img class="team__item-img" src="./images/our_team_block/our_team_img_1.png" alt="photo CEO">
+                    <div class="team__item-name">
+                        Bernard Sparks
+                    </div>
+                    <div class="team__item-position">
+                        CEO
+                    </div>
+                </div>
+                <div class="team__item">
+                    <img class="team__item-img" src="./images/our_team_block/our_team_img_2.png" alt="Photo Co-Founder">
+                    <div class="team__item-name">
+                        MINERVA BENSON
+                    </div>
+                    <div class="team__item-position">
+                        Co-Founder
+                    </div>
+                </div>
+                <div class="team__item">
+                    <img class="team__item-img" src="./images/our_team_block/our_team_img_3.png" alt="Photo Sales">
+                    <div class="team__item-name">
+                        Jared Olson
+                    </div>
+                    <div class="team__item-position">
+                        Sales
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pricing">
+      <div class="container">  
+          <div class="title_box h2-title-container-for-max-width">
+            <h2 class="pricing__title">
+                Pricing Plans
+            </h2>
+          </div>
+       
+        <div class="pricing__items">
+            <div class="pricing__item pricing__item--stabart">
+                <div class="pricing__item-name">
+                    Basic
+                </div>
+                <div class="pricing__item-rate">
+                    <div class="dollar">$</div> <div class="price-value">29</div> <div class="mounth">/ month</div>
+                 </div>
+                <ul class="pricing__list">
+                    <li class="pricing__list-item">1 LOGO DESIGN</li>
+                    <li class="pricing__list-item">1 WEBSITE DESIGN</li>
+                    <li class="pricing__list-item">1 DOMAIN FREE</li>
+                    <li class="pricing__list-item">3 MONTH LICENSE</li>
+                    <li class="pricing__list-item">1 GB STORAGE</li>
+                </ul>
+                <button class="pricing__btn btn">CHOOSE PLAN</button>
+            </div>
+            <div class="pricing__item">
+                <div class="pricing__item-name">
+                    Standart
+                </div>
+                <div class="pricing__item-rate">
+                    <div class="dollar">$</div> <div class="price-value">50</div> <div class="mounth">/ month</div>
+                 </div>
+                <ul class="pricing__list">
+                    <li class="pricing__list-item">2 LOGO DESIGN</li>
+                    <li class="pricing__list-item">2 WEBSITE DESIGN</li>
+                    <li class="pricing__list-item">1 DOMAIN FREE</li>
+                    <li class="pricing__list-item">6 MONTHS LICENSE</li>
+                    <li class="pricing__list-item">1 GB STORAGE</li>
+                </ul>
+                <button class="pricing__btn btn">CHOOSE PLAN</button>
+            </div>
+            <div class="pricing__item">
+                <div class="pricing__item-name">
+                    Vip
+                </div>
+                <div class="pricing__item-rate">
+                   <div class="dollar">$</div> <div class="price-value">70</div> <div class="mounth">/ month</div>
+                </div>
+                <ul class="pricing__list">
+                    <li class="pricing__list-item">3 LOGO DESIGN</li>
+                    <li class="pricing__list-item">3 WEBSITE DESIGN</li>
+                    <li class="pricing__list-item">2 DOMAIN FREE</li>
+                    <li class="pricing__list-item">12 MONTHS LICENSE</li>
+                    <li class="pricing__list-item">2 GB STORAGE</li>
+                </ul>
+                <button class="pricing__btn btn">CHOOSE PLAN</button>
+            </div>
+         </div>
+      </div>
+    </section>
+    <section class="contact">
+        <div class="container">
+            <div class="contact__inner" id="contact-section">
+                <div class="contact__content">
+                    <div class="title_box">
+                        <h2 class="contact__title">Get In Touch</h2>
+                    </div>
+                    <form action="" class="contact__form">
+                        
+                            <input type="text" class="contact__form-input" placeholder="YOUR NAME">
+                        <input type="text" class="contact__form-input" placeholder="VALID EMAIL">
+                        
+                        <textarea class="contact__form-textarea" style="height: 156px" placeholder="YOUR MESSAGE"></textarea>
+                    </form>
+                        <button class="contact__form-btn btn">SEND MESSAGE</button>
+                    
+                </div>
+                <div class="contact__map">
+                    <img class="map__img img" src="./images/get_in_touch_block/map.png" alt="">
+                </div>
+            </div>  
+        </div>
+    </section>
+    <div class="footer">
+        <div class="container">
+          <div class="footer__content">
+           
+                <div class="logo logo-mb logo--line">
+                    <a class="logo__link" href="#menu">
+                        <svg class="logo-icon">
+                            <use xlink:href="./svg-sprites/svg-sprites.svg#logo"></use>
+                         </svg>
+                    </a>
+                </div>
+                <div class="footer__social">
+                    <a href="#" class="footer__social-link">Facebook</a>
+                    <a href="#" class="footer__social-link">Twitter</a>
+                    <a href="#" class="footer__social-link">Google</a>
+                    <a href="#" class="footer__social-link">Behance</a>
+                    <a href="#" class="footer__social-link">Dribble</a>
+                    <a href="#" class="footer__social-link">Instagram</a>
+                </div>
+                    <div class="footer__info footer__info--mb">
+                        <div class="footer__adress">
+                            Mese Selimovica 52, Banja Luka 
+                         </div> 
+                         <a href="tel:0038343432332" class="footer__phone">(0038)-3434-32332</a> 
+                         <a href="mailto:info@mail.com" class="footer__email">info@mail.com</a>
+                    </div>
+                           
+                     <button class="footer-to__top-btn btn">
+                        <a href="#menu" class="arrow-up-to-menu"> 
+                         <svg class="arrow-up">
+                             <use xlink:href="./svg-sprites/svg-sprites.svg#arrowUp"></use>
+                         </svg>
+                        </a>
+                     </button>
+                </div>
+               </div>
+                 <div class="footer__copy">
+                   <div class="copyright">
+                       @2015 Oxigen Theme
+                   </div> 
+                 </div>      
+    </footer>
+    <!-- <script src="./libs/jQuery/jquery-3.6.0.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="js/script-hover-h1-mouse-logo.js"></script>
+    <!-- <script src="js/script-hover-h1-mouse-logo-new.js"></script> -->
+    <script src="js/arrow-down.js"></script>
+    <!-- <script src="libs/vide/jquery.vide.min.js"></script> -->
+    <script src="./js/video_play.js"></script>
+    <script src="libs/jQuery/slick/slick.min.js"></script>
+    <!-- <script src="./js/font-range-bar.js"></script> -->
+    <!-- <script src="./js/slider.js"></script> -->
+    <script src="./js/slider-slick.js"></script>
+    <!-- <script src="./js/slider-adaptive.js"></script> -->
+    <script src="./js/slider-adaptive-01.js"></script>
+</body>
+</html>
+
