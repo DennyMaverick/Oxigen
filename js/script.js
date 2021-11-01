@@ -147,5 +147,19 @@ const menuModalLinks = document.querySelectorAll('.menu-list__link');
       this.classList.add('pricing__item--stabart');
     });
   });
- 
+ //  Добавление плавной прокрутки
+const anchors = document.querySelectorAll('a[href*="#"]');
+
+for (let anchor of anchors) {
+  anchor.addEventListener('click', function(event) {
+    event.preventDefault();
+    const blockID = anchor.getAttribute('href');
+    document.querySelector('' + blockID).scrollIntoView({
+      behavior: "smooth",
+      block: "start"
+    });
+  });
+};
+  
+  
 });
