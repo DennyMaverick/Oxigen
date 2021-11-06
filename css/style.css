@@ -768,7 +768,7 @@ position: relative;
   flex-direction: column;
   align-items: center;
   transition: box-shadow .3s linear;
-
+  cursor: default;		
 }
 .statistics__item:hover {
   box-shadow: .3rem .3rem 1rem #020202;
